@@ -1,5 +1,5 @@
 # StickyNotes Application
-An app for typing stickynotes.
+An app for stickynotes.
 
 ## Description
 An application used to create, save, edit and delete stickynotes.
