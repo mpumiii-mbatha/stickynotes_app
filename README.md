@@ -1,25 +1,36 @@
 # StickyNotes Application
-An app for stickynotes.
+An app for managing personal sticky notes.
 
 ## Description
-An application used to create, save, edit and delete stickynotes.
+A simple Django application to create, save, edit, and delete sticky notes.  
+Users can view all notes, edit existing notes, and delete notes instantly. The app comes with a styled, user-friendly interface for ease of use.
 
 ## Table of Contents
 - Introduction
 - Installation
 - Usage
+- Running Tests
 - Contributing
 - License
 
 ## Introduction
-Sticky notes
+StickyNotes is a personal note-taking application built with Django.  
+It allows users to quickly create and manage sticky notes with titles and content.  
 
 ## Installation
-1. Find the zip file containing the stickynotes django app
-2. Download the file to access the application files
+1. Clone or download the zip file containing the StickyNotes Django app.
+2. Navigate to the project directory in your terminal.
+3. Create and activate a virtual environment:
+   ```bash
+   # Windows
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
 
+   # macOS/Linux
+   python3 -m venv .venv
+   source .venv/bin/activate
 ## Usage
-Open the garde_advice.py file to view the webpage
+Open the zip file and download the django folder
 
 ## Contributing
 N/A
@@ -38,12 +49,3 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-n
